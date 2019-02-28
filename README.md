@@ -21,7 +21,9 @@ The recommended way of installing our dependencies is with Composer.
 Composer is a dependency management tool for PHP that allows you to reclare the dependencies your project needs and installs them into your project.
 
 Install composer with:
+
 + curl -sS https://getcomposer.org/installer | php
 
 Navigate to the popeye-php folder, and execute the installation:
+
 + composer.phar install
