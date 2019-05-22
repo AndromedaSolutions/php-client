@@ -52,7 +52,7 @@ if (!class_exists('PopeyeClient'))
         private function _get_client() {
             return new Client([
                 'base_uri' => $this->url,
-                'timeout' => 3.0,
+                'timeout' => 15.0,
                 'headers'=> [
                     'Content-Type' => 'application/json',
                     'Accept' => 'application/json',
